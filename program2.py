@@ -5,9 +5,9 @@
 
 # Function for inputing 3 numbers
 def get_numbers():
-    a = input("First Number: ")
-    b = input("Second Number: ")
-    c = input("Third Number: ")
+    a = float(input("First Number: "))
+    b = float(input("Second Number: "))
+    c = float(input("Third Number: "))
     return a, b, c
 
 
@@ -20,6 +20,3 @@ elif b < a < c or b < c < a:
     print(f"The lowest number is {b}")
 elif a < b < c or a < c < b:
     print(f"The lowest number is {a}")
-
-
-print("Thank you")
